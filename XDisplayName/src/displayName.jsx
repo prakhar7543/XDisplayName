@@ -16,8 +16,8 @@ export default function DisplayName() {
   };
 
   let handleSubmit = (e) => {
-    e.preventDefault();
-    setFullName(`${firstName} ${lastName}`);
+      setFullName(`${firstName} ${lastName}`);
+      e.preventDefault();
   };
 
   return (
