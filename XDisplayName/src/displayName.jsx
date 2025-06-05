@@ -32,6 +32,7 @@ export default function DisplayName() {
           <input
             id="first"
             type="text"
+            pattern="[A-Za-z]+"
             placeholder="Enter your first name"
             onChange={handleFirstName}
             required
@@ -43,6 +44,7 @@ export default function DisplayName() {
           <input
             id="last"
             type="text"
+            pattern="[A-Za-z]+"
             placeholder="Enter your Last name"
             onChange={handleLastName}
             required
