@@ -61,6 +61,7 @@ export default function DisplayName() {
         </button>
       </form>
 
+          {fullName && 
       <div
         className="display"
         style={{
@@ -75,6 +76,7 @@ export default function DisplayName() {
       >
         Full Name : {fullName}
       </div>
+      }
     </div>
   );
 }
