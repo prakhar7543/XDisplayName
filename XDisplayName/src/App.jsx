@@ -1,4 +1,4 @@
-
+import DisplayName from './displayName'
 import './App.css'
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      hello
+      <DisplayName />
     </>
   )
 }
